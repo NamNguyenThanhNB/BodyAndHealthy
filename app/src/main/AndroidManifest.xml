@@ -9,19 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MoRongActivity"></activity>
+        <activity android:name=".activity.ListCTBaiTap_4_Activity"></activity>
+        <activity android:name=".activity.ListBaiTap_4_Activity" />
+        <activity android:name=".activity.BaiTap_4_Activity" />
+        <activity android:name=".activity.ThucPham_4_Activity" />
+        <activity android:name=".activity.DongHo_4_Activity" />
+        <activity android:name=".activity.CaiDat_4_Activity" />
+        <activity android:name=".activity.ThuVien_4_Activity" />
+        <activity android:name=".activity.CachTinh_3_Activity" />
+        <activity android:name=".activity.ChiTietMucTieu_2_Activity" />
+        <activity android:name=".activity.ThemMucTieu_2_Activity" />
+        <activity android:name=".activity.TTCapNhat_1_Activity" />
+        <activity android:name=".activity.TDCuaban_1_Activity" />
+        <activity android:name=".activity.SSThongSo_1_Activity" />
+        <activity android:name=".activity.TSCanNang_1_Activity" />
+        <activity android:name=".activity.MoRongActivity" />
         <activity android:name=".activity.TinhToanActivity" />
         <activity android:name=".activity.MucTieuActivity" />
         <activity android:name=".activity.ChiSoCoTheActivity" />
         <activity android:name=".activity.ManHinhChinhActivity" />
-        <activity android:name=".activity.ManHinhChaoActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.ManHinhChaoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
